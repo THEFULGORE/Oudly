@@ -1,0 +1,21 @@
+.sidebar {
+	background-color: white;
+	border-radius: 10px;
+
+	&__brands {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+	&__button {
+		margin-bottom: 0 !important;
+		&:hover {
+			color: #0054a3a1;
+			cursor: pointer;
+		}
+	}
+}
+
+.ant-list-item {
+	padding: 0.5rem;
+}

@@ -1,0 +1,16 @@
+@import 'antd/dist/antd.css';
+
+.app {
+	&__spin {
+		position: absolute;
+		top: 20%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		font-size: 2rem;
+	}
+}
+
+a {
+	color: black;
+}

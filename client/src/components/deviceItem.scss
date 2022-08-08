@@ -1,0 +1,48 @@
+.device {
+	width: 100%;
+	&__info {
+		display: flex;
+		margin-right: auto;
+	}
+	&__description {
+		margin-left: 0.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__price {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	&__title {
+		cursor: pointer;
+	}
+	&__rate {
+		border: 2px solid #d9d9d9;
+		border-radius: 10px;
+		padding-bottom: 0.25rem;
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
+	}
+	&__comment {
+		border: 2px solid #d9d9d9;
+		border-radius: 10px;
+		padding: 0.39rem;
+		cursor: pointer;
+	}
+}
+
+.ant-card {
+	border-radius: 10px;
+	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 16%);
+}
+
+.ant-card-body {
+	display: flex;
+}
+
+.ant-skeleton-element .ant-skeleton-input-lg {
+	height: 174px;
+	border-radius: 10px;
+}
